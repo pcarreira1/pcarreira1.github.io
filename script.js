@@ -37,6 +37,7 @@ $(document).ready(function(){
 	});
 	
 	$(".coverVideo").height($("#videoCompany").height());
+	
 	$(window).on('resize', function(){
 		$(".coverVideo").height($("#videoCompany").height());
 	});
