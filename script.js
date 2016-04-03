@@ -36,7 +36,7 @@ $(document).ready(function(){
 		$('#theMenu').toggleClass('menu-open');
 	});
 	
-	$(".coverVideo").height($("#videoCompany").height());
+	
 	
 	$(window).on('resize', function(){
 		$(".coverVideo").height($("#videoCompany").height());
@@ -48,7 +48,7 @@ $(document).ready(function(){
 	for(i=0;i<team.length;i++){
 		$("#teamImg").append('<button type="button" class="btn btn-default orange-circle-button blueCircle" style="background: url('+dir+team[i]+') no-repeat center;background-size: cover;"><div class="hoverImage"></div></button>');
 	}
-
+$(".coverVideo").height($("#videoCompany").height());
 
 });
 
