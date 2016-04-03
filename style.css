@@ -469,3 +469,8 @@ position: absolute;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
+
+.imgCenter{
+	margin: auto;
+    display: block;
+}
