@@ -347,8 +347,11 @@ button{
 }
 
 .menu img.logo {
-    width: 100%;
+	width: 60px;
     height: auto;
+    margin: 43px;
+    margin-left: 95px;
+    display: block;
 }
 
 .menu a {
@@ -357,7 +360,7 @@ button{
     display: block;
     font-size: 15px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 60px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
