@@ -31,12 +31,16 @@ $(document).ready(function(){
 	});
 	
 	$('#menuToggle, .menu-close').on('click', function(){
-				$('#menuToggle').toggleClass('active');
-				$('body').toggleClass('body-push-toleft');
-				$('#theMenu').toggleClass('menu-open');
-			});
+		$('#menuToggle').toggleClass('active');
+		$('body').toggleClass('body-push-toleft');
+		$('#theMenu').toggleClass('menu-open');
+	});
 	
-	
+	$(".coverVideo").height($("#videoCompany").height());
+	$(window).on('resize', function(){
+		$(".coverVideo").height($("#videoCompany").height());
+	});
+			
 	var dir="./img/team/";
 	var team=["01_AndrePires.gif","02_VitorTeixeira.gif","03_JoaoBandeira.gif","04LuisMagalhaes.gif","05_JoaoCosta.gif","06_NunoDuarte.gif","07_PedroCarreira.gif","08_JoaoSoares.gif","09_LilianaRibeiro.gif","10_DiogoGomes.gif","11_MiguelNunes.gif","12_RicardoLoureiro.gif","13_AnaAlves.gif","14_BeatrizCavaleiro.gif","15_AndrePeixoto.gif","16_MiguelSandim.gif","17_RicardoFigueiredo.gif","18_Matheus.gif","19_ClaudioMonteiro.gif","20_AndreBordalo.gif","21_JoaoCardoso.gif","22_CarolinaFaria.gif","23_Guilherme.gif","24_AndreRegado.gif","25_AnaRitaFerreira.gif","26_BrunoAlves.gif","27_JoaoPereira.gif","28_CarlosPereira.gif","29_JoseCardoso.gif","30_AnaísDias.gif","31_RaquelCorreia.gif","32_RitaLima.gif","33_DanielCouceiro.gif","34_JoaoFernandes.gif"];
 	
