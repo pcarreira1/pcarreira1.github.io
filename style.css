@@ -480,11 +480,11 @@ position: absolute;
 }
 
 .videoLogo{
-    width: 70%;
+width: 75%;
     height: auto;
     display: table-cell;
     vertical-align: middle;
-    margin: auto;
+    margin-left: 12.5%;
 }
 
 h3 {
